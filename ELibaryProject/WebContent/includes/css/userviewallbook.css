@@ -1,0 +1,125 @@
+
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background: url(lib.jpg);
+    background-size:cover;
+}
+
+
+table, td, th {  
+  
+  
+}
+
+table {
+  border-collapse:collapse;
+  width:100%;
+}
+
+th, td {
+  padding:15px;
+}
+
+.box {
+    position:absolute;
+    top:53%;
+    left:50%;
+    border-bottom:50%;
+    transform:translate(-50%, -50%);
+    width:50%;
+    padding:40px;
+    padding-bottom:40px;
+    background:rgba(0,0,0,.8);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(0,0,0,.5);
+    border-radius:10px;
+}
+.box h2
+   {
+   margin:0 0 30px;
+    padding:0;
+    color :#fff;
+    color :darkseagreen;
+    text-align :center;
+}
+
+
+
+
+.radiodiv
+{
+
+    padding :10px 0;
+    font-size :16px;
+    color: #fff;
+
+}
+
+
+.textareastyle
+{
+	border: 2px solid #765942; 
+	border-radius :10px; 
+	height :100px; width :75%; 
+	color :white; 
+	background :transparent; 
+    resize :none;
+    text-align:left;
+    align-content :left;
+}
+
+.custominputstyle
+{
+	 width:75%;
+    padding :10px 0;
+    font-size :16px;
+    color :darkgrey;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom :1px solid #fff;
+    outline: none;
+    background :transparent;
+}
+
+.input
+{   width :75%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom :30px;
+    border :none;
+    border-bottom :1px solid #fff;
+    outline: none;
+    background :transparent;
+
+}
+
+input[type=button], input[type=submit], input[type=reset] 
+{
+  background-color: #03a9f4;
+  border :none;
+  border-radius: 8px;
+  color :white;
+  padding :16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor :pointer;
+
+}
+
+
+.footer {
+   
+   
+   width: 100%;
+   height: 70px;
+   margin-top:113px; 
+   color:white;
+   text-align:center;
+   background:rgba(0,0,0,.8);
+   
+}
+}
+

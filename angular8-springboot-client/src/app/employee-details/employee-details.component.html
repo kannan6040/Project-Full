@@ -1,0 +1,20 @@
+<h2>Feedback Details</h2> 
+
+<hr/>
+<div *ngIf="employee">
+  <div>
+    <label><b>User Name: </b></label> {{employee.firstName}}
+  </div>
+  <div>
+    <label><b>Book Name: </b></label> {{employee.lastName}}
+  </div>
+  <div>
+    <label><b>Feedback: </b></label> {{employee.emailId}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Feedback List</button><br>
+
+
